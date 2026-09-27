@@ -10,7 +10,7 @@ Repo da matéria de Front-End. Aqui vão os códigos que eu faço em aula, come�
 
 | Arquivo | O que é |
 |---|---|
-| [`aula_24_09_2026`](aula_24_09_2026) | Códigos da aula de 24/09: estrutura de página com Bootstrap |
+| [`aula_24_09_2026_bootstrap/`](aula_24_09_2026_bootstrap) | Aula de 24/09 com Bootstrap: estrutura da página, grid e colunas responsivas (3 exercícios) |
 
 ## 🗺️ O que a matéria cobre
 
