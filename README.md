@@ -11,6 +11,7 @@ Repo da matéria de Front-End. Aqui vão os códigos que eu faço em aula, come�
 | Arquivo | O que é |
 |---|---|
 | [`aula_24_09_2026_bootstrap/`](aula_24_09_2026_bootstrap) | Aula de 24/09 com Bootstrap: estrutura da página, grid e colunas responsivas (3 exercícios) |
+| [`aula_03_10_2026_ia/`](aula_03_10_2026_ia) | Aulão de 03/10 com o prof. Eliel: site de receitas Sabor & Casa feito em vibe coding (Stitch + ChatGPT + Claude Code), com prints e ressalvas de segurança |
 
 ## 🗺️ O que a matéria cobre
 
