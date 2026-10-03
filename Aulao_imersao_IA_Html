@@ -5,8 +5,57 @@ Hoje irei usar o Claude Code para me auxiliar nesse aprendizado (professor vai u
 
 Primeira coisa que voce tem que fazer quando criar um site com IA comece pelo nome .
 
+Jamais fechar o projeto por menos de R$1000,00.
+sempre colocar um valor e colocar que voce trabalha em home office e seu custo é menor 
+pede 7k para fechar 2.5k 2.7 
+Dica do professor que ele gosta sempre gosta de colocar valor quebrado (29.950 em vez de 30k)
+Cobrar sempre Metade no inicio do contrato e o resto na entrega do projeto .
+Sempre colocar na IA o valor aproximado (sempre vai dar muito e voce altera de acordo com o cliente) 
+Sempre colocar um prazo no minimo 3 dias te apresento proposta de layout 
+1 semana para 
+
+site barato ate 900$ (somente Landin page)
+se tiver banco de dados 2.5$ (onde tem uma estrutura que ja tenho que seguir)
+Curso de vendas e prospecçao  https://kultivi.com/                --------->>>>
+
+===> Vamos usar chat GPT, Stitch(IA), Claude code (NO Vs code).
+
+prompt do exemplo do site de receitas de comida e sobremesas 
+
+quero um site profissional de livro de receitas de comidas e sobremesas quero que seja premium e duas versoes mobile e desktop(commit stitch),(foi pro GPT)
+me sugira as tecnologias, como fazer ,faça o prompt completo para eu utilizar o claude para fazer o projeto, e quero todo o prompt para criar tudo por lá, me envie o passo a passo (commit GPT),
+depois manda pro Vscode com o claude code o prompt master e com exportaçao no stitch
+e colocamos o claude para trabalhar 
 
 
+\\ sobre dominios e cadastros ele explicou tudo  
+
+Domínio
+
+• O que é: É o endereço exclusivo do seu site que as pessoas digitam no navegador, como exemplo.com.br.
+• Função: Serve para identificar a sua marca ou projeto na internet de forma fácil de lembrar. Sem ele, os usuários precisariam decorar sequências numéricas complexas
+
+Registro
+
+• O que é: É o ato de alugar e garantir a propriedade de um nome de domínio por um período determinado (geralmente de 1 a 10 anos) junto a um órgão oficial ou revendedor autorizado.
+• Função: Garante que mais ninguém no mundo use o mesmo nome de endereço que você durante a vigência do contrato. No Brasil, o principal órgão gerenciador de domínios nacionais (.br) é o Registro.br.
+
+O registro br tem como regra permitir verão com acento, exemplo do saborê.
+Mas precisa estar vinculado a um registro do mesmo proprietário da versão do nome sem acento, pq ele considera equivalentes.
+
+DNS
+
+DNS (Sistema de Nomes de Domínio)
+• O que é: É o sistema que atua como uma "lista telefônica" da internet.
+• Função: Ele traduz o nome do seu domínio (legível para humanos) em um endereço IP numérico (legível para os computadores e servidores). 
+Quando alguém acessa seu site, o DNS indica em qual servidor físico o conteúdo está guardado. 
+Dentro dele, existem vários registros DNS (como os tipos A, MX ou TXT) que apontam o domínio para o site, os e-mails e outros serviços.
+
+
+
+-------//// claude trabalhando ainda \\\\\\\----------
+
+Fiz um site muito legal sobre receitas vou postar imagens dele depois , mas foi um projeto muito facil e rapido com instruçoes do professor Eliel
 
 
 
