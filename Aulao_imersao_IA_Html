@@ -27,6 +27,7 @@ me sugira as tecnologias, como fazer ,faça o prompt completo para eu utilizar o
 depois manda pro Vscode com o claude code o prompt master e com exportaçao no stitch
 e colocamos o claude para trabalhar 
 
+peguei o prompt mestre e joguei no claude 
 
 \\ sobre dominios e cadastros ele explicou tudo  
 
@@ -57,6 +58,1080 @@ Dentro dele, existem vários registros DNS (como os tipos A, MX ou TXT) que apon
 
 Fiz um site muito legal sobre receitas vou postar imagens dele depois , mas foi um projeto muito facil e rapido com instruçoes do professor Eliel
 
+****************************************aqui esta o prompt mestre************************************************************************* 
+
+Você é um desenvolvedor PHP sênior, arquiteto de sistemas, especialista em Laravel, MySQL, UI/UX e aplicações web profissionais.
+
+Quero que você desenvolva um projeto completo, profissional e pronto para produção de um site premium de receitas culinárias.
+
+O projeto será uma plataforma de receitas de comidas e sobremesas.
+
+O site deve funcionar perfeitamente em:
+
+- celular
+- tablet
+- notebook
+- desktop
+- telas grandes
+
+Não quero uma página estática.
+
+Quero uma aplicação web completa com banco de dados, autenticação, painel administrativo, receitas dinâmicas, busca, filtros, favoritos, avaliações, upload de imagens e SEO.
+
+# STACK OBRIGATÓRIA
+
+Utilize:
+
+- PHP 8.3+
+- Laravel 12
+- MySQL 8+
+- Blade
+- Livewire
+- Tailwind CSS
+- Alpine.js
+- Vite
+- Composer
+- Laravel Storage
+- Laravel Validation
+- Laravel Eloquent ORM
+- Laravel Authentication
+
+Utilize as versões estáveis atuais das dependências no momento da implementação.
+
+Não utilize React, Next.js, Node.js como backend, Supabase ou PostgreSQL.
+
+O banco de dados deve ser exclusivamente MySQL.
+
+# OBJETIVO
+
+Criar uma plataforma premium de receitas chamada provisoriamente:
+
+"SABOR & CASA"
+
+A marca deve poder ser alterada posteriormente facilmente.
+
+A aparência deve combinar:
+
+- livro de receitas
+- revista gastronômica
+- aplicativo moderno
+- site editorial premium
+
+# DESIGN
+
+Quero um design elegante, sofisticado, moderno e gastronômico.
+
+Evite aparência de template genérico.
+
+Evite:
+
+- excesso de gradientes
+- excesso de sombras
+- excesso de cores
+- visual infantil
+- cards exageradamente grandes
+- interfaces poluídas
+
+Use:
+
+- bastante espaço em branco
+- fotografias grandes
+- tipografia elegante
+- cards refinados
+- bordas sutis
+- animações discretas
+- microinterações
+- excelente hierarquia visual
+
+# PALETA
+
+Background:
+
+#FAF8F4
+
+Texto:
+
+#24221F
+
+Texto secundário:
+
+#716D66
+
+Principal:
+
+#7A4E2D
+
+Destaque:
+
+#C89B63
+
+Branco:
+
+#FFFFFF
+
+Bordas:
+
+#E8E1D8
+
+Centralize as cores em variáveis/configuração para facilitar alterações futuras.
+
+# TIPOGRAFIA
+
+Utilize uma fonte serifada elegante para títulos.
+
+Sugestão:
+
+Playfair Display
+
+Para textos e interface:
+
+Inter
+
+# RESPONSIVIDADE
+
+Desenvolva utilizando abordagem mobile-first.
+
+O mesmo projeto deve funcionar em:
+
+320px
+375px
+390px
+430px
+768px
+1024px
+1280px
+1440px+
+
+Não crie versões separadas do sistema.
+
+Crie layouts responsivos.
+
+No mobile:
+
+- menu apropriado
+- busca fácil
+- filtros em drawer/modal
+- cards adaptados
+- botões fáceis de tocar
+- navegação inferior quando fizer sentido
+- leitura confortável das receitas
+
+No desktop:
+
+- navegação completa
+- grids maiores
+- imagens grandes
+- melhor aproveitamento horizontal
+- sidebar quando fizer sentido
+
+# PÁGINAS
+
+Criar:
+
+/
+Home
+
+/receitas
+Lista de receitas
+
+/receitas/{slug}
+Receita individual
+
+/categorias
+Categorias
+
+/categorias/{slug}
+Receitas por categoria
+
+/buscar
+Busca
+
+/favoritos
+Favoritos
+
+/login
+Login
+
+/register
+Cadastro
+
+/perfil
+Perfil
+
+/sobre
+Sobre
+
+/contato
+Contato
+
+/admin
+Dashboard
+
+/admin/receitas
+Gerenciamento de receitas
+
+/admin/receitas/criar
+Criar receita
+
+/admin/receitas/{id}/editar
+Editar receita
+
+/admin/categorias
+Gerenciar categorias
+
+/admin/usuarios
+Gerenciar usuários
+
+/admin/configuracoes
+Configurações
+
+# HOME
+
+Criar:
+
+Header premium.
+
+Logo.
+
+Menu:
+
+Receitas
+Categorias
+Sobremesas
+Favoritos
+Sobre
+
+Busca.
+
+Área do usuário.
+
+Hero:
+
+"Receitas para tornar cada momento especial."
+
+Subtítulo.
+
+Campo:
+
+"O que você quer cozinhar hoje?"
+
+Categorias:
+
+Bolos
+Sobremesas
+Massas
+Carnes
+Frango
+Peixes
+Saladas
+Pães
+Doces
+Bebidas
+
+Receitas em destaque.
+
+Receita da semana.
+
+Receitas populares.
+
+Seção de sobremesas.
+
+Newsletter.
+
+Footer.
+
+# RECEITAS
+
+Criar RecipeCard reutilizável.
+
+Cada card deve mostrar:
+
+- imagem
+- categoria
+- título
+- tempo
+- dificuldade
+- avaliação
+- favorito
+
+Criar hover no desktop.
+
+Criar interação apropriada no mobile.
+
+# PÁGINA INDIVIDUAL
+
+Mostrar:
+
+Breadcrumb
+
+Categoria
+
+Título
+
+Descrição
+
+Imagem principal
+
+Tempo de preparo
+
+Tempo de cozimento
+
+Tempo total
+
+Rendimento
+
+Dificuldade
+
+Avaliação
+
+Favoritar
+
+Compartilhar
+
+Imprimir
+
+Ingredientes
+
+Modo de preparo
+
+Dicas
+
+Receitas relacionadas
+
+# BANCO DE DADOS MYSQL
+
+Criar migrations Laravel.
+
+Tabelas:
+
+users
+profiles
+recipes
+categories
+ingredients
+favorites
+ratings
+tags
+recipe_tag
+
+Utilizar:
+
+BIGINT ou UUID conforme melhor prática para Laravel/MySQL.
+
+Criar:
+
+primary keys
+foreign keys
+indexes
+unique constraints
+timestamps
+soft deletes quando apropriado
+
+# RECIPES
+
+Campos:
+
+id
+title
+slug
+description
+image
+category_id
+prep_time
+cook_time
+total_time
+servings
+difficulty
+instructions
+tips
+featured
+published
+created_at
+updated_at
+
+Criar índice para:
+
+slug
+category_id
+published
+featured
+
+Slug deve ser único.
+
+# INGREDIENTS
+
+Campos:
+
+id
+recipe_id
+name
+quantity
+unit
+position
+created_at
+updated_at
+
+Manter ordem dos ingredientes.
+
+# CATEGORIES
+
+Campos:
+
+id
+name
+slug
+description
+image
+created_at
+updated_at
+
+Slug único.
+
+# FAVORITES
+
+Campos:
+
+id
+user_id
+recipe_id
+created_at
+updated_at
+
+Criar unique constraint:
+
+user_id + recipe_id
+
+Um usuário não pode favoritar duas vezes a mesma receita.
+
+# RATINGS
+
+Campos:
+
+id
+user_id
+recipe_id
+rating
+created_at
+updated_at
+
+Rating de 1 a 5.
+
+Criar unique:
+
+user_id + recipe_id
+
+# TAGS
+
+Criar relacionamento many-to-many entre recipes e tags.
+
+# ELOQUENT
+
+Criar Models:
+
+User
+Profile
+Recipe
+Category
+Ingredient
+Favorite
+Rating
+Tag
+
+Criar corretamente os relacionamentos Eloquent.
+
+Exemplos:
+
+Recipe belongsTo Category
+
+Recipe hasMany Ingredient
+
+Recipe belongsToMany Tag
+
+Recipe hasMany Rating
+
+Recipe belongsToMany User through favorites
+
+# AUTENTICAÇÃO
+
+Utilizar autenticação Laravel.
+
+Usuário poderá:
+
+- criar conta
+- fazer login
+- logout
+- recuperar senha
+- editar perfil
+
+Criar sistema de autorização.
+
+Tipos:
+
+user
+admin
+
+# ADMIN
+
+Criar middleware para proteger:
+
+/admin/*
+
+Não depender apenas de esconder menus.
+
+O servidor deve impedir acesso de usuários comuns.
+
+# ADMIN DASHBOARD
+
+Mostrar:
+
+Total de receitas
+Receitas publicadas
+Rascunhos
+Categorias
+Usuários
+Avaliação média
+
+Criar gerenciamento completo.
+
+# CRUD DE RECEITAS
+
+Permitir:
+
+criar
+listar
+visualizar
+editar
+excluir
+publicar
+despublicar
+destacar
+
+Formulário:
+
+Título
+Descrição
+Categoria
+Imagem
+Tempo de preparo
+Tempo de cozimento
+Rendimento
+Dificuldade
+Ingredientes
+Modo de preparo
+Dicas
+Tags
+Destaque
+Publicado
+
+Ingredientes devem ser adicionados dinamicamente.
+
+Etapas devem ser organizadas.
+
+# LIVEWIRE
+
+Utilizar Livewire quando houver interação dinâmica útil.
+
+Usar para:
+
+- busca
+- filtros
+- favoritos
+- avaliações
+- paginação
+- formulário dinâmico de ingredientes
+- gerenciamento administrativo quando apropriado
+
+Não utilizar Livewire sem necessidade.
+
+# ALPINE.JS
+
+Utilizar Alpine.js para:
+
+- menus
+- modais
+- dropdowns
+- drawers
+- pequenas interações
+
+Evitar JavaScript desnecessário.
+
+# UPLOAD
+
+Utilizar Laravel Storage.
+
+Criar organização:
+
+storage/app/public/recipes
+storage/app/public/categories
+storage/app/public/avatars
+
+Validar:
+
+- extensão
+- MIME type
+- tamanho
+
+Criar fallback para imagem.
+
+Configurar:
+
+php artisan storage:link
+
+# BUSCA
+
+Criar busca por:
+
+nome
+ingredientes
+categoria
+tags
+
+Criar filtros:
+
+categoria
+dificuldade
+tempo
+tipo
+
+Usar queries Eloquent eficientes.
+
+Evitar N+1 queries.
+
+Utilizar eager loading.
+
+Adicionar paginação.
+
+# FAVORITOS
+
+Usuários autenticados poderão favoritar.
+
+O botão deve funcionar sem precisar recarregar a página quando possível.
+
+Mostrar feedback visual.
+
+Criar:
+
+/favoritos
+
+# AVALIAÇÕES
+
+Usuários autenticados podem dar nota de 1 a 5.
+
+Mostrar média.
+
+Mostrar quantidade de avaliações.
+
+Impedir avaliação duplicada.
+
+# COMPARTILHAMENTO
+
+Implementar Web Share API quando disponível.
+
+Criar fallback:
+
+Copiar link
+
+# IMPRESSÃO
+
+Criar CSS específico para impressão.
+
+Esconder:
+
+header
+menus
+botões
+elementos desnecessários
+
+Manter:
+
+nome da receita
+imagem
+ingredientes
+modo de preparo
+tempo
+rendimento
+
+# SEO
+
+Implementar SEO usando recursos do Laravel e Blade.
+
+Cada receita deve possuir:
+
+title
+meta description
+canonical
+Open Graph
+Twitter/X Cards
+
+Criar:
+
+sitemap.xml
+
+robots.txt
+
+URLs amigáveis.
+
+Exemplo:
+
+/receitas/brownie-de-chocolate
+
+Não utilizar URLs confusas.
+
+Implementar Schema.org Recipe JSON-LD.
+
+# PERFORMANCE
+
+Priorizar performance.
+
+Utilizar:
+
+- imagens otimizadas
+- lazy loading
+- paginação
+- cache Laravel quando apropriado
+- queries eficientes
+- eager loading
+- índices MySQL
+
+Evitar carregar dados desnecessários.
+
+# ACESSIBILIDADE
+
+Seguir boas práticas WCAG.
+
+Garantir:
+
+- contraste
+- labels
+- navegação por teclado
+- foco
+- alt text
+- HTML semântico
+- botões acessíveis
+- formulários acessíveis
+
+# ANIMAÇÕES
+
+Utilizar animações discretas.
+
+Exemplos:
+
+hover
+fade
+dropdown
+modal
+favorito
+menu
+
+Respeitar:
+
+prefers-reduced-motion
+
+# COMPONENTES BLADE
+
+Criar componentes reutilizáveis.
+
+Exemplos:
+
+x-layout
+x-header
+x-footer
+x-recipe-card
+x-recipe-grid
+x-category-card
+x-search-bar
+x-filter-panel
+x-favorite-button
+x-rating
+x-recipe-ingredients
+x-recipe-instructions
+x-share-button
+x-empty-state
+x-loading-state
+
+Evitar duplicação.
+
+# ESTRUTURA
+
+Organizar:
+
+app/
+├── Models
+├── Http
+├── Livewire
+├── Services
+├── Policies
+└── ...
+
+resources/
+├── views
+├── css
+└── js
+
+database/
+├── migrations
+├── seeders
+└── factories
+
+routes/
+
+public/
+
+storage/
+
+tests/
+
+# SEED
+
+Criar pelo menos 20 receitas de demonstração.
+
+Categorias:
+
+Bolos
+Sobremesas
+Massas
+Carnes
+Frango
+Saladas
+Pães
+Doces
+
+As receitas devem conter conteúdo original.
+
+Não copiar receitas protegidas por direitos autorais.
+
+Criar:
+
+DatabaseSeeder
+RecipeSeeder
+CategorySeeder
+
+Utilizar factories quando fizer sentido.
+
+# IMAGENS
+
+Preparar o sistema para upload real.
+
+Não depender de URLs externas para funcionamento do sistema.
+
+Utilizar imagens de demonstração apenas quando necessário.
+
+# ESTADOS
+
+Criar:
+
+loading
+erro
+vazio
+sucesso
+
+Não deixar páginas quebradas.
+
+# SEGURANÇA
+
+Aplicar:
+
+CSRF
+Mass Assignment Protection
+Validation
+Authorization
+Policies
+Middleware
+Rate limiting quando apropriado
+Sanitização
+Validação de uploads
+
+Nunca expor credenciais.
+
+Nunca colocar senha no código.
+
+Utilizar:
+
+.env
+
+Criar:
+
+.env.example
+
+# MYSQL
+
+Configurar conexão MySQL através de:
+
+DB_CONNECTION=mysql
+DB_HOST=
+DB_PORT=
+DB_DATABASE=
+DB_USERNAME=
+DB_PASSWORD=
+
+Não colocar credenciais reais.
+
+# README
+
+Criar README completo contendo:
+
+- descrição
+- stack
+- requisitos
+- instalação
+- Composer
+- Node/NPM necessário para assets
+- configuração .env
+- criação do banco MySQL
+- migrations
+- seed
+- storage link
+- execução local
+- testes
+- build
+- deployment
+- criação de administrador
+
+# TESTES
+
+Criar testes para:
+
+autenticação
+permissões
+receitas
+favoritos
+avaliações
+validação
+rotas administrativas
+
+Utilizar PHPUnit/Pest conforme apropriado para a versão do Laravel.
+
+# QUALIDADE
+
+Antes de finalizar:
+
+executar testes
+executar lint/format quando disponível
+executar build dos assets
+verificar migrations
+verificar seed
+verificar rotas
+verificar responsividade
+verificar segurança
+verificar SEO
+
+Corrigir todos os erros encontrados.
+
+# FASES
+
+FASE 1:
+Criar projeto Laravel.
+
+FASE 2:
+Configurar Tailwind, Blade, Vite e Alpine.
+
+FASE 3:
+Criar design system.
+
+FASE 4:
+Criar layout global.
+
+FASE 5:
+Criar Home.
+
+FASE 6:
+Criar banco MySQL e migrations.
+
+FASE 7:
+Criar Models e relacionamentos.
+
+FASE 8:
+Criar receitas e categorias.
+
+FASE 9:
+Criar autenticação.
+
+FASE 10:
+Criar favoritos e avaliações.
+
+FASE 11:
+Criar busca e filtros.
+
+FASE 12:
+Criar painel administrativo.
+
+FASE 13:
+Criar upload de imagens.
+
+FASE 14:
+Criar SEO.
+
+FASE 15:
+Criar testes.
+
+FASE 16:
+Auditoria completa.
+
+FASE 17:
+Preparar deployment.
+
+# REGRA FUNDAMENTAL
+
+Não quero apenas exemplos de código.
+
+Quero que você realmente construa o projeto.
+
+Crie os arquivos reais.
+
+Não deixe:
+
+TODO
+
+"implementar depois"
+
+"faça isso futuramente"
+
+quando a implementação puder ser feita agora.
+
+Se algo depender de credencial externa, implemente a integração e deixe somente a variável no .env.example.
+
+Se alguma pequena decisão não estiver especificada, escolha a solução mais simples, segura e profissional.
+
+Não faça perguntas sobre detalhes pequenos.
+
+# AO FINAL DE CADA FASE
+
+Faça:
+
+1. verificar código
+2. executar testes
+3. corrigir erros
+4. verificar migrations
+5. verificar TypeScript/JavaScript quando aplicável
+6. verificar assets
+7. explicar o que foi feito
+8. listar arquivos principais alterados
+9. continuar para a próxima fase
+
+Não avance deixando erros conhecidos.
+
+# RESULTADO FINAL
+
+Quero um sistema que pareça um produto comercial real.
+
+Deve ser:
+
+premium
+rápido
+responsivo
+elegante
+seguro
+acessível
+SEO-friendly
+escalável
+organizado
+pronto para produção
+
+Comece pela FASE 1.
+
+Não me dê uma explicação genérica.
+
+Construa efetivamente o projeto.
 
 
 
