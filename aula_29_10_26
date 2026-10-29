@@ -85,7 +85,34 @@ switch (dia){
 }
 ********************************
 
+***********Exercicios em aula********************
+Parte 1 — IF / ELSE
 
+Exercício 1 — Verificador de saldo bancário
+Crie duas variáveis chamadas saldo e valorCompra. Desenvolva um programa que verifique se o saldo é suficiente para realizar a compra. Se for suficiente, 
+mostre "Compra autorizada!". Caso contrário, mostre "Saldo insuficiente!".
+
+Exercício 2 — Número positivo ou negativo
+Crie uma variável chamada numero. Desenvolva um programa que verifique se o número é positivo, negativo ou igual a zero. Mostre uma mensagem correspondente ao resultado.
+
+Exercício 3 — Desconto em compras
+Crie uma variável chamada valorCompra. Desenvolva um programa que aplique um desconto de 10% caso o valor da compra seja maior ou igual a R$ 200,00. Caso contrário,
+mantenha o valor original. Mostre o valor final da compra.
+
+
+Parte 2 — SWITCH CASE
+
+Exercício 4 — Escolha de transporte
+Crie uma variável chamada transporte que receba um número de 1 a 4. Utilize switch case para identificar o transporte escolhido: 1 — Carro, 2 — Moto, 3 — Bicicleta e 4 — Ônibus. Caso seja informado outro número,
+mostre "Transporte inválido!".
+
+Exercício 5 — Calculadora simples
+Crie três variáveis chamadas numero1, numero2 e operacao. Desenvolva uma calculadora utilizando switch case, em que a opção 1 realiza soma, 2 realiza subtração,
+3 realiza multiplicação e 4 realiza divisão. Mostre o resultado da operação escolhida.
+
+Exercício 6 — Sistema de pedidos de lanchonete
+Crie uma variável chamada pedido que receba um número de 1 a 4. Utilize switch case para identificar o produto escolhido: 1 — Hambúrguer (R$ 18,00), 2 — Pizza (R$ 35,00), 3 — Cachorro-quente (R$ 12,00) e 
+4 — Refrigerante (R$ 7,00). Mostre o nome e o preço do produto. Caso a opção não exista, mostre "Produto não encontrado!".
 
 
 
