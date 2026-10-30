@@ -84,6 +84,20 @@ switch (dia){
 
 }
 ********************************
+Exemplo didatico 
+
+for(let i = 1; i <= 5; i++){
+    console.log(i);
+}
+
+
+let numero = Number(prompt("Entre com um número para exibir a tabuada:"));
+
+for(let i = 1; i <=10; I++){ 
+    console.log(numero + " x " + i + " = " + (numero * 1));
+}
+
+
 
 ***********Exercicios em aula********************
 Parte 1 — IF / ELSE
