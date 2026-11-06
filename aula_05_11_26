@@ -1,0 +1,146 @@
+anotaçoes de aula
+
+javascript
+
+function apresentar(nome) {
+    console.log("Olá, " + nome +"!");
+}
+
+apresentar("Matias");
+apresentar("Carolina");
+apresentar("Alvani");
+apresentar("Luana");
+
+
+
+*****************
+
+function somar (numero1, numero2){
+    let resultado = numero1 + numero2;
+    console.log(resultado);
+}
+somar(10,20);
+somar(11,11);
+
+
+*******************************
+
+
+function somar(a, b){
+    return a + b;
+}
+
+let resultado = somar(10,20);
+
+console.log("Resultado: " + resultado);
+
+
+**********************
+
+function verificarIdade(idade){
+    if(idade >= 18){
+        return "Você tem " + idade + " anos. Você é maior de idade";
+    }else{
+        return "Você tem " + idade + " anos. Você é menor de idade";
+    }
+}
+
+let idade = Number(prompt("Digite sua idade:"));
+
+console.log(verificarIdade(idade));
+document.getElementById("resultado").textContent = verificarIdade(idade);
+
+
+************
+
+let alunos = ["Matias","Alvani","Daniel","Luana","Mauricio"]; // como é feito o array 
+
+console.log(alunos); //trazer todos
+
+console.log(alunos[3]); //trazer especifico 
+
+alunos.push("Gabriel"); //acescenta o ultimo item 
+console.log(alunos);
+
+alunos.pop(); //retira o ultimo
+console.log(alunos); 
+
+alunos.shift(); //remove o primeiro
+console.log(alunos);
+
+alunos.unshift("Gabriela"); // acrescenta no primeiro
+console.log(alunos);
+
+
+alunos.splice(1,2); //remove 2 a partir de acordo com a posiçao e quantidade
+console.log(alunos);
+
+let posicao = alunos.indexOf("Mauricio"); //encontrar a posicao
+console.log(posicao);
+
+ *********************
+
+let alunos = ["Matias", "Alvani","Daniel","Luana","Mauricio"];
+
+for(let i = 0;i < alunos.length; i++){
+    console.log(alunos[1]);
+}
+
+for(let aluno of alunos){
+    console.log(aluno);
+}
+
+
+************************
+
+
+let aluno = {
+    nome: "Gabriel",
+    idade: 24,
+    curso: "Engenharia de software"
+};
+
+console.log(aluno.nome);
+console.log(aluno.idade);
+console.log(aluno.curso);
+
+***************
+
+
+let produto = { 
+    nome: "Notebook",
+    preco: 3800,
+    estoque: 10
+};
+
+produto.preco = 3200;
+
+console.log(produto.nome)
+console.log(produto.preco);
+
+***************
+
+let alunos = [ 
+    { nome: "Gabriel", nota: 8 },
+    { nome: "Alvani",nota: 7},
+    { nome: : "Matias", nota: 1.3}
+];
+
+for(let aluno of alunos){
+    console.log(aluno.nome + ": " + aluno.nota);
+}
+
+
+fazer um site portilifolio sobre mim tem que ter Html, css , jscript
+
+
+
+
+
+
+
+
+
+
+
+
