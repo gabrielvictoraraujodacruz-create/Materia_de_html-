@@ -1,0 +1,157 @@
+
+Anotaçoes de sala de aula
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Boas vindos</h1>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome">
+    <button onclick="exibirNome()">Enviar</button>
+    <p id="resultado"></p>
+    <script>
+        function exibirNome() {
+            let nome = document.getElementById("nome").value;
+        document.getElementById("resultado").textContent = "Olá," + nome + "!"        
+        }
+        function calcular() {
+            let num1 = parseFloat(document.getElementById("num1").value);
+            let num2 = parseFloat(document.getElementById("num2").value);
+            let resultado = num1 + num2;
+            document.getElementById("resultadoCalculadora").textContent = "O resultado é: " + resultado;
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+**************************************************
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Boas vindos</h1>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome">
+    <button onclick="exibirNome()">Enviar</button>
+    <p id="resultado"></p>
+
+    <h2>Verificar Idade</h2>
+    <input type="number" id="idade" placeholder="Digite a sua idade">
+    <button onclick="verificarIdade()">Verificar</button>
+    <p id="resultadoIdade"></p>
+
+    <script>
+        function exibirNome() {
+            let nome = document.getElementById("nome").value;
+            document.getElementById("resultado").textContent = "Olá, " + nome + "!";
+        }
+
+        function verificarIdade() {
+            let idade = parseInt(document.getElementById("idade").value, 10);
+            let resultadoIdade = document.getElementById("resultadoIdade");
+
+            if (idade >= 18) {
+                resultadoIdade.textContent = "Você é maior de idade.";
+            } else {
+                resultadoIdade.textContent = "Você é menor de idade.";
+            }
+        }
+    </script>
+</body>
+</html>
+
+***********************************************************************
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> calcular média </h1>
+  <input type="number" id="nota1" placeholder="Digite primeira nota">
+  <input type="number" id="nota2" placeholder="Digite segunda nota">
+  <input type="number" id="nota3" placeholder="Digite terceira nota">
+  <button onclick="calcularMedia()"> Enviar</button> 
+  <p id="resultado"></p>
+
+  <script>
+    function calcularMedia(){
+      let n1 = Number(document.getElementById("nota1").value);
+      let n2 = Number(document.getElementById("nota2").value);
+      let n3 = Number(document.getElementById("nota3").value);
+
+      let notas = [n1, n2, n3];
+      let soma = 0;
+
+      for (let nota of notas) {
+        soma = soma + nota;
+      }
+
+      let media = soma / notas.length;
+      let mensagem = "Média: " + media.toFixed(2);
+
+      if (media >= 6) {
+        mensagem += " - Aluno aprovado";
+      } else {
+        mensagem += " - Aluno reprovado";
+      }
+
+      document.getElementById("resultado").textContent = mensagem;
+    }
+  </script>
+
+  </body>
+</html>
+
+
+*******************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
