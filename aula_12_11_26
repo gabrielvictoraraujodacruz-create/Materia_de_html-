@@ -125,7 +125,62 @@ Anotaçoes de sala de aula
 
 
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> calculadora </h1>
+    <input type="number" id="n1" placeholder="Primeiro número">
+    <select id = "operador">
+      <option value="+">Somar</option>
+      <option value="-">Substrair</option>
+      <option value="*">Multiplicar</option>
+      <option value="/">Diviri</option>
+    </select>
+    <input type="number" id="n2" placeholder="Segundo número">
+    <button onclick="calcular()"> Enviar</button>
+    <p id="resultado"></p>
 
+    <script>
+      function calcular(){
+        let n1 = document.getElementById("n1").value;
+        let n2 = document.getElementById("n2").value;
+        let operador = document.getElementById("operador"),
+        value;
+
+        let resultado;
+
+        switch (operador){
+          case "+":
+            resultado = n1 + n2;
+          break;
+          case "-":
+            resultado = n1 + n2;
+          break;
+          case "*":
+            resultado = n1 + n2;
+          break;
+          case "/":
+            if(n2 === 0){
+              resultado = "Não é possivel por zero":
+              }else{
+            resultado = n1 + n2;
+          break;
+        
+        }
+     
+       document.getElementById("resultado ").textContent = 
+       "Resultado: " + resultado;
+   
+  
+      }
+    </script>
+  </body>
+</html>
 
 
 
